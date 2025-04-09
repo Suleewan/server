@@ -1,8 +1,8 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "server.js",  
-    "scripts": {
+  "main": "server.js",
+  "scripts": {
     "postinstall": "",
     "start": "node server.js"
   },
@@ -12,10 +12,10 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.1.9"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "nodemon": "^3.1.9",
     "prisma": "^6.6.0"
   }
 }
