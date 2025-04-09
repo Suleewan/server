@@ -43,7 +43,7 @@ const app = express();
 const morgan = require('morgan');
 const { readdirSync } = require('fs');
 const cors = require('cors');
-const { PrismaClient } = require('@prisma/client');
+const { PrismaClient } = require('./node_modules/@prisma/client');
 const bodyParser = require('body-parser');
 const prisma = new PrismaClient();
 
