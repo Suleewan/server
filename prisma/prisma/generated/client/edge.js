@@ -247,7 +247,7 @@ const config = {
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../../../.env",
+    "rootEnvPath": null,
     "schemaEnvPath": "../../../../.env"
   },
   "relativePath": "../../..",
@@ -257,12 +257,11 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": null
+        "value": "postgresql://iseus_user:F46W0OMJcSrpgSdTVjECVVhjT2CVa2R0@dpg-cvr6emi4d50c738e6pj0-a.singapore-postgres.render.com/iseus"
       }
     }
   },
